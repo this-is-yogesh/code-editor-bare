@@ -1,0 +1,9 @@
+.containerClass {
+  height: 100vh;
+}
+
+.content-wrapper {
+  max-width:1800px;
+  padding: 1rem;
+  background-color: red;
+}
