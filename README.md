@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+Notes :
+
+1.how to define variables in css
+use , --widthValue : 30px, width : var(--widthValue)
+under :root selector for globalscope access and under any other selector for local scope access
+use (--widthValue, 50px) will use 50px if widthvalue not defined

@@ -1,0 +1,12 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #111827,
+    #0f172a
+  ); /* gray-900 to gray-950 */
+  display: flex;
+  flex-direction: column;
+}
+
+

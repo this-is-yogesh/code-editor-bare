@@ -20,6 +20,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*
+
+@layer utilities → Tells Tailwind you are defining new utilities.
+
+.text-balance → A custom class you can now use in HTML/JSX.
+
+text-wrap: balance; → A CSS property that improves how multi-line text wraps (experimental but helpful for nicer wrapping).
+
+📌 Now, in JSX/HTML, you can use <div className="text-balance"> to apply this custom behavior.*/
 @layer utilities {
   .text-balance {
     text-wrap: balance;
